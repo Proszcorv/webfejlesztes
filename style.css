@@ -265,6 +265,10 @@ nav p, article p {
     background-size: cover;
     margin: 0 0 20px 0;
 }
+
+#barons h4 {
+    flex-basis: 100%;
+}
  
 /* SÁRKÁNYOK */
 
