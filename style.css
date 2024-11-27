@@ -267,7 +267,7 @@ nav p, article p {
 }
 
 #barons h4 {
-    width: 100%;
+    flex-basis: 100%;
 }
  
 /* SÁRKÁNYOK */
