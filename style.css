@@ -266,8 +266,9 @@ nav p, article p {
     margin: 0 0 20px 0;
 }
 
-#barons span {
+#barons h4 {
     flex-basis: 100%;
+    text-align: center;
 }
  
 /* SÁRKÁNYOK */
