@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $(".center").slick({
-        dots: true,
+        dots: false,
         infinite: true,
         centerMode: true,
         centerPadding: '60px',

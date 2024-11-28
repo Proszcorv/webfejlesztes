@@ -379,19 +379,6 @@ nav p, article p {
     opacity: 1;
 }
 
-.slick-dots li {
-    position: relative;
-}
-
-.slick-dots li button::before {
-    color: grey;
-    font-size: 10px;
-}
-
-.slick-dots li.slick-active button::before {
-    color: white;
-}
-
 /* ŰRLAPOK */
 
 form {
