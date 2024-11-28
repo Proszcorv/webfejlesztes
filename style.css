@@ -379,7 +379,20 @@ nav p, article p {
     opacity: 1;
 }
 
-/* ŰRLAP */
+.slick-dots li {
+    position: relative;
+}
+
+.slick-dots li button::before {
+    color: grey;
+    font-size: 10px;
+}
+
+.slick-dots li.slick-active button::before {
+    color: white;
+}
+
+/* ŰRLAPOK */
 
 form {
     background-color: #1A202C;
