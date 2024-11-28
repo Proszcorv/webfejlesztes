@@ -441,6 +441,41 @@ form .button:hover {
     background: #EDB852;
 }
 
+.radio-group {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.checkbox-main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkbox-group div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    accent-color: #edb752c7;
+    width: 1.02em;
+    height: 1.02em;
+}
+
 form .results {
     border: none;
     font-size: 20px;

@@ -142,15 +142,59 @@
             <form action="https://rf.uni-corvinus.hu/webfejlesztes/receive.php" method="post">
                 <h2>League of Legends Survey</h2>
     
-                <label for="role">What's your main role?</label>
-                <select id="role" name="role" required>
-                    <option value="">Select your role</option>
+                <label for="lane">What's your main lane?</label>
+                <select id="lane" name="lane" required>
+                    <option value="">Select your lane</option>
                     <option value="top">Top Lane</option>
                     <option value="jungle">Jungle</option>
                     <option value="mid">Mid Lane</option>
                     <option value="adc">ADC</option>
                     <option value="support">Support</option>
                 </select>
+
+                <p>Which roles are your favorite?</p>
+                <div class="checkbox-main">
+                    <div class="checkbox-group">
+                        <div>
+                            <label>
+                                <input type="checkbox" name="role" value="fighters">
+                                Fighters
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="checkbox" name="role" value="tanks">
+                                Tanks
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="checkbox" name="role" value="mages">
+                                Mages
+                            </label>
+                        </div>
+                    </div>
+                    <div class="checkbox-group">
+                        <div>
+                            <label>
+                                <input type="checkbox" name="role" value="marksmen">
+                                Marksmen
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="checkbox" name="role" value="assassins">
+                                Assassins
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="checkbox" name="role" value="supports">
+                                Supports
+                            </label>
+                        </div>
+                    </div>
+                </div>
     
                 <label for="champion">Who's your favorite champion?</label>
                 <input type="text" id="champion" name="champion" placeholder="e.g., Yasuo" required>
@@ -158,11 +202,20 @@
                 <label for="start-date">When did you start playing?</label>
                 <input type="date" id="start-date" name="start-date" required>
         
-                <label for="first-name">First Name</label>
-                <input type="text" id="first-name" name="first-name" placeholder="e.g., John" required>
+                <label for="first-last-name">Full Name (Firs and Last)</label>
+                <input type="text" id="first-last-name" name="name" placeholder="e.g., John Smith" required>
     
-                <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" name="last-name" placeholder="e.g., Smith" required>
+                <p>Gender</p>
+                <div class="radio-group">
+                    <div>
+                        <input type="radio" id="male" name="gender" value="M" required>
+                        <label class="radio" for="male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="female" name="gender" value="F" required>
+                        <label class="radio" for="female">Female</label>
+                    </div>
+                </div>
         
                 <label for="email">Gmail Address</label>
                 <input type="email" id="email" name="email" placeholder="e.g., summoner@gmail.com" required>
