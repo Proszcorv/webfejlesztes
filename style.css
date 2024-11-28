@@ -391,8 +391,13 @@ form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    text-align: center;
 }
+
+.form>* {
+    margin: 1%;
+    height: fit-content;
+}
+
 
 form h2 {
     text-align: center;
@@ -401,12 +406,21 @@ form h2 {
 }
 
 form h4 {
+    margin: 5px;
+}
+
+form p {
+    border: none;
+    padding: 0;
     margin: 0;
 }
 
-form label {
+form label,
+form p {
+    text-align: center;
     font-weight: bold;
     color: #EDB852;
+    font-size: 1em;
 }
 
 form select,
@@ -475,6 +489,7 @@ input[type="radio"] {
     width: 1.02em;
     height: 1.02em;
 }
+
 
 form .results {
     border: none;
