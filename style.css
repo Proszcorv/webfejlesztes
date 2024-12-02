@@ -366,19 +366,6 @@ nav p, article p {
     width: 100%;
 }
 
-.slick-slide {
-    transition: all ease-in-out .3s;
-    opacity: .2;
-}
-
-.slick-active {
-    opacity: .4;
-}
-
-.slick-current {
-    opacity: 1;
-}
-
 /* ŰRLAPOK */
 
 form {
@@ -490,6 +477,15 @@ input[type="radio"] {
     height: 1.02em;
 }
 
+input[type="range"] {
+    margin-top: 10px;
+    padding: 0;
+    accent-color: #EDB852;
+}
+
+label.error {
+    color: red;
+}
 
 form .results {
     border: none;
