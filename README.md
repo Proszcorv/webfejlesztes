@@ -19,6 +19,10 @@ JavaScript kódok:
 2. A jungle oldal aljánál kis képekre kattintáskor megváltozik az alatta lévő bekezdés és a kép. Ezek mellett a kis kép alatt található sárkány is megnő.
 3. A főoldalon van egy "LP - kalkulátor" ami az LP (Leauge Point) - ok alapján számol. Meg kell adni a jelenlegi rankot és diviziót és azt, hogy éppen hány LP - d van. Ezekután meg kell adnod, hogy átlagosan hány LP - t nyersz (ha nyersz). A kalkulátor kiszámolja hogy hányat kell egymás után egyhuzamban nyerned ahoz, hogy egy divizióval feljebb kerülj, hogy egy rankkal feljebb kerülj és végül azt hogy hány győzelem után érheted el a legfelső rankot, a Challengert.
 
+JQuery:
+A képgaléria és az űrlap validálás mindkettő a főoldalon van.
+Az orán tanunlt kódot átalakítva csináltam meg.
+
 Egyedi font típusok:
 Leauge of Legends font típust használtam a https://www.fontbolt.com/font/league-of-legends-font/ weboldalról.
 Az összes címsoron ezt használtam, tehát h1 - től h5 - ig.
