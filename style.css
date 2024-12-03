@@ -123,7 +123,7 @@ h5 {
 }
 
 video {
-    width: 100%;
+    max-width: 100%;
     margin: 20px 0;
     padding: 10px;
     border-radius: 50%;
@@ -165,7 +165,7 @@ nav p, article p {
 }
 
 .rift {
-    width: 100%;
+    max-width: 100%;
     margin: 0;
 }
 
@@ -442,11 +442,11 @@ form .button:hover {
     background: #EDB852;
 }
 
-.radio-group {
+.radio_group {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -498,9 +498,6 @@ form .results {
 /*RESZPONZIVITÁS*/
 
 @media all and (min-width: 600px) {
-    .rift {
-        width: 100%;
-    }
 
     article img {
         width: 75%;
@@ -511,7 +508,7 @@ form .results {
     }
 
     nav video {
-        width: 49%;
+        max-width: 49%;
     }
 
     .reverse {
@@ -525,10 +522,13 @@ form .results {
     .champs {
         flex-basis: 100%;
     }
-
+    
     .champs img{
-        order: -1;
-        flex-basis: 25%;
+        flex-basis: 40%;
+    }
+
+    .champs h5{
+        flex-basis: 100%;
     }
 
     .non_round {
@@ -578,7 +578,7 @@ form .results {
 
 @media all and (min-width: 768px) {
     .rift {
-        width: 60%;
+        max-width: 60%;
     }
 
     nav p, article p, figure{
@@ -586,7 +586,7 @@ form .results {
     }
 
     nav video {
-        width: 49%;
+        max-width: 49%;
     }
 
     .reverse {
@@ -605,6 +605,11 @@ form .results {
         order: -1;
         flex-basis: 25%;
     }
+
+    .champs h5 {
+        flex-basis: 32%;
+    }
+
     .non_round {
         width: 70%;
     }
