@@ -208,7 +208,7 @@
                 <input type="text" id="first-last-name" name="first_last_name" placeholder="e.g., John Smith">
         
                 <p>Gender</p>
-                <div class="radio-group">
+                <div class="radio_group">
                     <div>
                         <input type="radio" id="male" name="gender" value="M" checked>
                         <label class="radio" for="male">Male</label>
@@ -268,15 +268,31 @@
                     required: true,
                     email: true
                 },
-                start_date: "required",
-                age: "required"
+                start_date: {
+                    required: true,
+                    min: "2009-10-27"
+                },
+                age: {
+                    required: true,
+                    max: 100
+                },
+                lane: {
+                    required: true
+                },
             },
             messages: {
                 first_last_name: "Type in your name!",
                 champion: "Please type in your favorite champion!",
                 email: "Please enter a valid email-adress!",
-                start_date: "Please select a date!",
-                age: "Please enter your age!"
+                start_date: {
+                    required: "Please select a date!",
+                    min: "2009 or above!"
+                },
+                age: {
+                    required: "Please enter your age!",
+                    maxlength: "Please enter a valid age!"
+                },
+                lane: "Please select a lane!",
             },
         });
     });               
