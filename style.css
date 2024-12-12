@@ -499,10 +499,6 @@ form .results {
 
 @media all and (min-width: 600px) {
 
-    article img {
-        width: 75%;
-    }
-
     nav p, article p, figure{
         flex-basis: 49%;
     }
